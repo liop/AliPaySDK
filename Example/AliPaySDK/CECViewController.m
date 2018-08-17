@@ -7,7 +7,7 @@
 //
 
 #import "CECViewController.h"
-
+#import <AlipaySDK/AlipaySDK.h>
 @interface CECViewController ()
 
 @end
@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [AlipaySDK defaultService];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

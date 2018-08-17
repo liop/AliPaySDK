@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DB393E9701A2BF7BFE96095646FEDC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		75963181E67575646CF897AAE441D8A9 /* Pods-AliPaySDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F342F4681FEA23DD3313E46226025506 /* Pods-AliPaySDK_Example-dummy.m */; };
+		763B5BB81491A6A107612448A1AF3DEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8CE7C0BB73CEAC542B32277C94ADA13C /* Pods-AliPaySDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CE9A4D696C195FF2007F11A8B62A76 /* Pods-AliPaySDK_Tests-dummy.m */; };
+		8E82EBE0B11E2793F616F9C3294DE6C2 /* Pods-AliPaySDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F377DAEC0F4FEB5EE5DA5E49C0CDD161 /* Pods-AliPaySDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D8FC2D40EC77FA9799B4F89284D5FB6 /* Pods-AliPaySDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A173C3CF3F8E4707CA73C9FBE5204CEC /* Pods-AliPaySDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDC5B23AEE6B3E021465684C81CEE476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06C8FE15C48CA75DFF82A20D86AC19E4;
+			remoteInfo = "Pods-AliPaySDK_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AB501BA732907D6198889D8ABED19F2 /* Pods-AliPaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliPaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2DBE1B7471265EF918428C88D18951BB /* Pods-AliPaySDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AliPaySDK_Tests.modulemap"; sourceTree = "<group>"; };
+		309F84F0673EF60007855EED7150939F /* Pods-AliPaySDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliPaySDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38A2A6876E027CFAF27F60555662432E /* Pods-AliPaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliPaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		475832A73CE4280A7B18D8983D7EEE69 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4A202BC35CD467A8A140AE85EFB4CEB9 /* Pods-AliPaySDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliPaySDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4DFA2F37825F5A9984CD9277516A1418 /* Pods_AliPaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AliPaySDK_Example.framework; path = "Pods-AliPaySDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5259AFD1C2212B884F560F408EC92C15 /* Pods-AliPaySDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliPaySDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C6686863C22E5761C143212A38536FB /* Pods_AliPaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AliPaySDK_Tests.framework; path = "Pods-AliPaySDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A59C22E95C7E7B3682791D2ED61CB7 /* Pods-AliPaySDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliPaySDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F1E18E5964A544B36D9032FDC3CFEE6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836001AF1485BDD64E96621ED8DE54AC /* Pods-AliPaySDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AliPaySDK_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FA7EC3AFE5DD7878F9666DF5D30A298 /* Pods-AliPaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliPaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A0CE9A4D696C195FF2007F11A8B62A76 /* Pods-AliPaySDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliPaySDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		A173C3CF3F8E4707CA73C9FBE5204CEC /* Pods-AliPaySDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AliPaySDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		A1AAED6D2F208967547ECF8AA67EEF7F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24F69805DF6650BCC060547B4B1B2A4 /* Pods-AliPaySDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliPaySDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B1346E5BF55B90911BEFAB380CD90DA6 /* Pods-AliPaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliPaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B7D7EA2AA0D03C271F97EF3E72DAF0B7 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = AliPaySDK/AlipaySDK.framework; sourceTree = "<group>"; };
+		C20CFE7B0E8DB1FA41B4A0A17B6329CA /* Pods-AliPaySDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliPaySDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		CDC050401B43D6E23A8482D31D630271 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = AliPaySDK/AlipaySDK.bundle; sourceTree = "<group>"; };
+		D1B539A99489C84AB1B288B015B63424 /* Pods-AliPaySDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliPaySDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED8C07F0027B15D4EF1606FBD17868F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EFB0D832D6CE98327D0A5F536CAC1694 /* Pods-AliPaySDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliPaySDK_Example-resources.sh"; sourceTree = "<group>"; };
+		F27366FB2335C363C8A1C7A7B650A6A7 /* AliPaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AliPaySDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F342F4681FEA23DD3313E46226025506 /* Pods-AliPaySDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliPaySDK_Example-dummy.m"; sourceTree = "<group>"; };
+		F377DAEC0F4FEB5EE5DA5E49C0CDD161 /* Pods-AliPaySDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AliPaySDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74B11BF34FEE822C0DBE6F56AA4921AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763B5BB81491A6A107612448A1AF3DEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95513717927BDB0D5D9BABCF59D3884C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB393E9701A2BF7BFE96095646FEDC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12295B7DC01531BE4FF3B712BF0216F4 /* Pods-AliPaySDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A1AAED6D2F208967547ECF8AA67EEF7F /* Info.plist */,
+				2DBE1B7471265EF918428C88D18951BB /* Pods-AliPaySDK_Tests.modulemap */,
+				309F84F0673EF60007855EED7150939F /* Pods-AliPaySDK_Tests-acknowledgements.markdown */,
+				D1B539A99489C84AB1B288B015B63424 /* Pods-AliPaySDK_Tests-acknowledgements.plist */,
+				A0CE9A4D696C195FF2007F11A8B62A76 /* Pods-AliPaySDK_Tests-dummy.m */,
+				5259AFD1C2212B884F560F408EC92C15 /* Pods-AliPaySDK_Tests-frameworks.sh */,
+				C20CFE7B0E8DB1FA41B4A0A17B6329CA /* Pods-AliPaySDK_Tests-resources.sh */,
+				F377DAEC0F4FEB5EE5DA5E49C0CDD161 /* Pods-AliPaySDK_Tests-umbrella.h */,
+				38A2A6876E027CFAF27F60555662432E /* Pods-AliPaySDK_Tests.debug.xcconfig */,
+				2AB501BA732907D6198889D8ABED19F2 /* Pods-AliPaySDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-AliPaySDK_Tests";
+			path = "Target Support Files/Pods-AliPaySDK_Tests";
+			sourceTree = "<group>";
+		};
+		3DB7DEA89CEB28D8F38F1EB8BA321CB2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CDC050401B43D6E23A8482D31D630271 /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5DAC7BA6CDABF3DC875FF9C541A281F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7D7EA2AA0D03C271F97EF3E72DAF0B7 /* AlipaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BCBC25042C4FEB7CA42D415BC3E80E74 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AA9BFBC9ADD773E389FDBA7C7D2A6E36 /* Products */,
+				8BC39ED57CF2208A054CE4F517799925 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DC9166B06F6E34612852848A7D36896 /* AliPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				5DAC7BA6CDABF3DC875FF9C541A281F0 /* Frameworks */,
+				BD2B07E53B508E5B77B769B360DBFE8E /* Pod */,
+				3DB7DEA89CEB28D8F38F1EB8BA321CB2 /* Resources */,
+			);
+			name = AliPaySDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8BC39ED57CF2208A054CE4F517799925 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD7B4B2013F685E673445E10B819A7A7 /* Pods-AliPaySDK_Example */,
+				12295B7DC01531BE4FF3B712BF0216F4 /* Pods-AliPaySDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AA9BFBC9ADD773E389FDBA7C7D2A6E36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DFA2F37825F5A9984CD9277516A1418 /* Pods_AliPaySDK_Example.framework */,
+				5C6686863C22E5761C143212A38536FB /* Pods_AliPaySDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCBC25042C4FEB7CA42D415BC3E80E74 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DC9166B06F6E34612852848A7D36896 /* AliPaySDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BD2B07E53B508E5B77B769B360DBFE8E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F27366FB2335C363C8A1C7A7B650A6A7 /* AliPaySDK.podspec */,
+				475832A73CE4280A7B18D8983D7EEE69 /* LICENSE */,
+				ED8C07F0027B15D4EF1606FBD17868F2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CD7B4B2013F685E673445E10B819A7A7 /* Pods-AliPaySDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6F1E18E5964A544B36D9032FDC3CFEE6 /* Info.plist */,
+				836001AF1485BDD64E96621ED8DE54AC /* Pods-AliPaySDK_Example.modulemap */,
+				69A59C22E95C7E7B3682791D2ED61CB7 /* Pods-AliPaySDK_Example-acknowledgements.markdown */,
+				4A202BC35CD467A8A140AE85EFB4CEB9 /* Pods-AliPaySDK_Example-acknowledgements.plist */,
+				F342F4681FEA23DD3313E46226025506 /* Pods-AliPaySDK_Example-dummy.m */,
+				A24F69805DF6650BCC060547B4B1B2A4 /* Pods-AliPaySDK_Example-frameworks.sh */,
+				EFB0D832D6CE98327D0A5F536CAC1694 /* Pods-AliPaySDK_Example-resources.sh */,
+				A173C3CF3F8E4707CA73C9FBE5204CEC /* Pods-AliPaySDK_Example-umbrella.h */,
+				B1346E5BF55B90911BEFAB380CD90DA6 /* Pods-AliPaySDK_Example.debug.xcconfig */,
+				9FA7EC3AFE5DD7878F9666DF5D30A298 /* Pods-AliPaySDK_Example.release.xcconfig */,
+			);
+			name = "Pods-AliPaySDK_Example";
+			path = "Target Support Files/Pods-AliPaySDK_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D599E31B58D5DF214FE2E285870CA89A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8FC2D40EC77FA9799B4F89284D5FB6 /* Pods-AliPaySDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D823D7335B8CB749B6CE806524C39847 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E82EBE0B11E2793F616F9C3294DE6C2 /* Pods-AliPaySDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06C8FE15C48CA75DFF82A20D86AC19E4 /* Pods-AliPaySDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A34A50E8D5B4B5E5DB469BA239211C /* Build configuration list for PBXNativeTarget "Pods-AliPaySDK_Example" */;
+			buildPhases = (
+				94D4BCE5DF0472301D955D3D5020F6F7 /* Sources */,
+				95513717927BDB0D5D9BABCF59D3884C /* Frameworks */,
+				D599E31B58D5DF214FE2E285870CA89A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AliPaySDK_Example";
+			productName = "Pods-AliPaySDK_Example";
+			productReference = 4DFA2F37825F5A9984CD9277516A1418 /* Pods_AliPaySDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7CC8B2427F64A60038BEE1038CE85AC /* Pods-AliPaySDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227A2CF2F41405BDA5389F24C429E1B7 /* Build configuration list for PBXNativeTarget "Pods-AliPaySDK_Tests" */;
+			buildPhases = (
+				614CEB0814876D2A95F5C3FF316B3E1B /* Sources */,
+				74B11BF34FEE822C0DBE6F56AA4921AA /* Frameworks */,
+				D823D7335B8CB749B6CE806524C39847 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B28AEBA28B52AD8B7BA946C32672DED5 /* PBXTargetDependency */,
+			);
+			name = "Pods-AliPaySDK_Tests";
+			productName = "Pods-AliPaySDK_Tests";
+			productReference = 5C6686863C22E5761C143212A38536FB /* Pods_AliPaySDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AA9BFBC9ADD773E389FDBA7C7D2A6E36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06C8FE15C48CA75DFF82A20D86AC19E4 /* Pods-AliPaySDK_Example */,
+				E7CC8B2427F64A60038BEE1038CE85AC /* Pods-AliPaySDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		614CEB0814876D2A95F5C3FF316B3E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE7C0BB73CEAC542B32277C94ADA13C /* Pods-AliPaySDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D4BCE5DF0472301D955D3D5020F6F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75963181E67575646CF897AAE441D8A9 /* Pods-AliPaySDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B28AEBA28B52AD8B7BA946C32672DED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AliPaySDK_Example";
+			target = 06C8FE15C48CA75DFF82A20D86AC19E4 /* Pods-AliPaySDK_Example */;
+			targetProxy = CDC5B23AEE6B3E021465684C81CEE476 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B144B09CF9B73CBFB58788A863C4C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38A2A6876E027CFAF27F60555662432E /* Pods-AliPaySDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AliPaySDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AliPaySDK_Tests/Pods-AliPaySDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27C537F638329256765A045F8DEB462A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB501BA732907D6198889D8ABED19F2 /* Pods-AliPaySDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AliPaySDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AliPaySDK_Tests/Pods-AliPaySDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2880248DC39305C526D35A87BA66DCDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FA7EC3AFE5DD7878F9666DF5D30A298 /* Pods-AliPaySDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AliPaySDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AliPaySDK_Example/Pods-AliPaySDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5598720D7B86B0CBCDBFD0779A5FA8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1346E5BF55B90911BEFAB380CD90DA6 /* Pods-AliPaySDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AliPaySDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AliPaySDK_Example/Pods-AliPaySDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		227A2CF2F41405BDA5389F24C429E1B7 /* Build configuration list for PBXNativeTarget "Pods-AliPaySDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B144B09CF9B73CBFB58788A863C4C5F /* Debug */,
+				27C537F638329256765A045F8DEB462A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A34A50E8D5B4B5E5DB469BA239211C /* Build configuration list for PBXNativeTarget "Pods-AliPaySDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5598720D7B86B0CBCDBFD0779A5FA8DF /* Debug */,
+				2880248DC39305C526D35A87BA66DCDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

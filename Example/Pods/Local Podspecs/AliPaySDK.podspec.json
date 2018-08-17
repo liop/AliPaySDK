@@ -1,0 +1,32 @@
+{
+  "name": "AliPaySDK",
+  "version": "0.1.0",
+  "summary": "A short description of AliPaySDK.",
+  "description": "支付宝支付的SDK封装",
+  "homepage": "https://github.com/liop/AliPaySDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liop": "tmdqq01@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/liop/AliPaySDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "resources": "AliPaySDK/*.bundle",
+  "vendored_frameworks": "AliPaySDK/*.framework",
+  "frameworks": [
+    "CoreMotion",
+    "CoreTelephony",
+    "SystemConfiguration"
+  ],
+  "libraries": [
+    "z",
+    "c++"
+  ]
+}

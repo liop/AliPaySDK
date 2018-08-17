@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AliPaySDK'
-  s.version          = '0.1.0'
+  s.version          = '15.5.5'
   s.summary          = 'A short description of AliPaySDK.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    支付宝支付的SDK封装
                        DESC
 
   s.homepage         = 'https://github.com/liop/AliPaySDK'
@@ -26,17 +26,12 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liop' => 'tmdqq01@gmail.com' }
   s.source           = { :git => 'https://github.com/liop/AliPaySDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'AliPaySDK/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'AliPaySDK' => ['AliPaySDK/Assets/*.png']
-  # }
+  s.resource = 'AliPaySDK/*.bundle'
+  s.vendored_framework = 'AliPaySDK/*.framework'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'CoreMotion', 'CoreTelephony','SystemConfiguration'
+  s.libraries = "z","c++"
 end
